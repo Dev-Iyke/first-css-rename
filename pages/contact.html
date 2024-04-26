@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../all_css/contact.css">
+</head>
+<body class="contact-container">
+    <h1>This is Our Contact Page</h1>
+
+    <form action="mailto:thompsonobasi4@gmail.com">
+        <div>
+            <label for="firstname">First Name:</label> <br>
+            <input type="text" name="firstname" placeholder="Enter your firstname">
+        </div><br>
+        <div>
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" name="lastname" placeholder="Enter your lastname">
+        </div><br>
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" placeholder="Enter your email">
+        </div><br>
+        <div>
+            <span>Gender:</span><br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male"> <br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female"><br>
+            <label for="notsay">Rather Not Say</label>
+            <input type="radio" name="gender" id="notsay" value="notsay"> 
+        </div><br>
+        
+        <div>
+            <label for="role">My Role:</label><br>
+            <select name="role" id="role">
+                <option value="null">select one below</option>
+                <option value="fslc">Developer</option>
+                <option value="olevel">Mentor</option>
+                <option value="bsc">Tutor</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" name="phone" placeholder="Enter your phone number">
+        </div><br>
+        <div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Tell me about yourself"></textarea>
+        </div><br>
+        <div>
+            <span>Do you want to subscribe to our newsletter?</span><br>
+            <label for="yes">Yes</label>
+            <input type="radio" name="gender" id="yes" value="yes"> <br>
+            <label for="no">No</label>
+            <input type="radio" name="gender" id="no" value="no"><br>
+        </div><br><hr>
+        <button>Send</button>
+        
+        
+    </form>
+    <p><a style="color: aqua;" href="../index.html">HOME</a></p>
+</body>
+</html>
